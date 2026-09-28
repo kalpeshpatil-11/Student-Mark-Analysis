@@ -1,0 +1,50 @@
+# Student Marks Analysis System
+
+A full-fledged Python project for analyzing student academic performance.
+
+## Features
+
+- Interactive Streamlit dashboard
+- Student record management
+- Add and delete students
+- Search students
+- Automatic total calculation
+- Percentage calculation
+- Grade calculation
+- Pass/fail calculation
+- Subject-wise analysis
+- Grade distribution
+- Top student analysis
+- Individual student reports
+- CSV export
+
+## Installation
+
+Open terminal inside the project folder:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser.
+
+## Project Structure
+
+```text
+Student_Marks_Analysis/
+├── app.py
+├── requirements.txt
+├── README.md
+├── data/
+│   └── students.csv
+└── modules/
+    ├── analysis.py
+    ├── data_manager.py
+    └── charts.py
+```
